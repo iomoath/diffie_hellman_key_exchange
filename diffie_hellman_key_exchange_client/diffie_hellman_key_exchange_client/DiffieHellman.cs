@@ -37,13 +37,12 @@ namespace diffie_hellman_key_exchange_client
         /// 'iv' for key size of 64-bit
         /// 'pub' for key size of 128-bit
         /// server returns </param>
-        /// <returns>128-bit Shared key with the public server.</returns>
+        /// <returns>256-bit Shared key with the public server.</returns>
         public string GetKey(string exchangeUrl, string sessionId, string action)
         {
             _exchangeUrl = exchangeUrl;
             _sessionId = sessionId;
-            _action = action;
-            // Valid actions: 'key', 'iv'
+            _action = action; // Valid actions: 'key', 'iv'
 
             Console.WriteLine($"[*] Action: Exchanging AES {action.ToUpper()}");
 
