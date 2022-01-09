@@ -32,7 +32,7 @@ namespace diffie_hellman_key_exchange_client
         /// Performs Diffie-Hellman key exchange
         /// </summary>
         /// <param name="exchangeUrl">Key exchange service URL</param>
-        /// <param name="sessionId">Session ID for the backup session</param>
+        /// <param name="sessionId">Session ID for the client identification</param>
         /// <param name="action">action type, valid values: 'iv' and 'key'.
         /// 'iv' for key size of 128-bit
         /// 'key' for key size of 256-bit
