@@ -21,4 +21,7 @@ $iv = $keys['iv'];
 
 $message = decrypt_aes256($cipher, $key, $iv);
 
+# Encrypt the message
+# $message = encrypt_aes256($message, $key, $iv);
+# exit($message);
 exit($message);
