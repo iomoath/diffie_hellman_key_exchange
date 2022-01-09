@@ -29,7 +29,7 @@ namespace diffie_hellman_key_exchange_client
 
 
         /// <summary>
-        /// Performs Diffie-Hellman key exchange with a backup server
+        /// Performs Diffie-Hellman key exchange
         /// </summary>
         /// <param name="exchangeUrl">Key exchange service URL</param>
         /// <param name="sessionId">Session ID for the backup session</param>
