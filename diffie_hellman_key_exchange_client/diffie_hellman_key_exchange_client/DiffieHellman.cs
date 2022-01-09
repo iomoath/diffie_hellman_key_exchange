@@ -33,9 +33,9 @@ namespace diffie_hellman_key_exchange_client
         /// </summary>
         /// <param name="exchangeUrl">Key exchange service URL</param>
         /// <param name="sessionId">Session ID for the backup session</param>
-        /// <param name="action">action type, valid values: 'iv' and 'pub'.
-        /// 'iv' for key size of 64-bit
-        /// 'pub' for key size of 128-bit
+        /// <param name="action">action type, valid values: 'iv' and 'key'.
+        /// 'iv' for key size of 128-bit
+        /// 'key' for key size of 256-bit
         /// server returns </param>
         /// <returns>256-bit Shared key with the public server.</returns>
         public string GetKey(string exchangeUrl, string sessionId, string action)
